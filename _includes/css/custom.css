@@ -1,0 +1,11 @@
+.header-logo {
+  width: 160px;
+  margin-top: -20px;
+}
+.navbar {
+  background: white;
+  padding: 10px 0;
+}
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
