@@ -53,3 +53,11 @@ ul.with-leading-icons .icon-left {
 .list-horizontal li {
   flex: 1 1 0;
 }
+#contact *:not(.text-muted) {
+  color: white;
+}
+#contact img {
+  border-radius: 100%;
+  border: 10px solid white;
+  margin: 50px 0 30px 0;
+}
