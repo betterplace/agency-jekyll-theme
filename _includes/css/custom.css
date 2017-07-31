@@ -2,8 +2,13 @@
   width: 160px;
   margin-top: -20px;
 }
-.navbar {
+.navbar-default,
+.navbar-default.navbar-shrink {
   padding: 10px 0;
+  background: white;
+}
+.navbar-default .nav li a {
+  color: black;
 }
 header .intro-text .intro-heading {
   font-size: 45px;
