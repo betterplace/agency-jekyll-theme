@@ -3,9 +3,8 @@
   margin-top: -20px;
 }
 .navbar {
-  background: white;
   padding: 10px 0;
 }
-.navbar-default .navbar-nav>li>a {
-  color: black;
+header .intro-text .intro-heading {
+  font-size: 45px;
 }
