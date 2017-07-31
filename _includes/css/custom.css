@@ -1,3 +1,9 @@
+body {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+}
+
 h3 {
   font-size: 20px;
   line-height: 26px;
