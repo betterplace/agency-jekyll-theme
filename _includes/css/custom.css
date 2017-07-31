@@ -1,3 +1,9 @@
+h3 {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: none;
+}
+
 .header-logo {
   width: 160px;
   margin-top: -20px;
@@ -12,4 +18,38 @@
 }
 header .intro-text .intro-heading {
   font-size: 45px;
+}
+
+#the_form {
+  background: #bac746;
+}
+#the_form h2 {
+  margin-bottom: 50px;
+}
+#the_form img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
+}
+#the_form .fa {
+  color: white;
+  font-size: 50px;
+}
+#the_form .fa {
+  color: white;
+}
+ul.with-leading-icons li {
+  position: relative;
+  padding-left: 60px;
+}
+ul.with-leading-icons .icon-left {
+  position: absolute;
+  left: 0px;
+  top: 0;
+}
+.list-horizontal {
+  display: flex;
+}
+.list-horizontal li {
+  flex: 1 1 0;
 }
