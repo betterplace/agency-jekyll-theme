@@ -11,7 +11,9 @@ h3 {
 }
 
 .header-logo {
-  width: 160px;
+  width: 220px;
+}
+nav .header-logo {
   margin-top: -20px;
 }
 .navbar-default,
