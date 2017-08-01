@@ -12,17 +12,28 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="https://www.betterplace.org/c/kontakt-und-impressum/">Impressum</a>
-                        </li>
-                    </ul>
+                <div class="col-md-12 text-left" style="margin-top: 30px">
+                  <p>
+                    Es gilt das <a href="https://www.betterplace.org/c/kontakt-und-impressum/">Impressum von betterplace.org</a>.
+                  </p>
+                  <p>
+                    Es gelten die <a href="https://www.betterplace.org/c/datenschutz/">Datenschutzregelungen von betterplace.org</a>. Bitte beachten Sie, dass Sie zusätzlich zu der in der Datenschutzerklärung unter „Cookies, Google Analytics, Open Rate und Click Rate“ beschriebenen Möglichkeit die Erfassung durch Google Analytics auch verhindern können, indem Sie auf folgenden Link klicken. Es wird ein sog. Opt-Out-Cookie gesetzt, der die zukünftige Erfassung Ihrer Daten beim Besuch dieser Website verhindert: <a href="javascript:gaOptout()">Google Analytics deaktivieren</a>.
+                  </p>
                 </div>
             </div>
         </div>
     </footer>
 
     <script>
+      var disableStr = 'ga-disable-UA-69616943-2';
+      if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+      }
+      function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+      }
+
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

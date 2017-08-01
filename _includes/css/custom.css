@@ -28,14 +28,27 @@ header .intro-text .intro-heading {
 
 #the_form {
   background: #bac746;
+  padding-top: 100px;
+  overflow: hidden;
+  height: 1000px;
+}
+@media(max-width:768px) {
+  #the_form {
+    overflow: visible;
+    height: auto;
+  }
+}
+#the_form .form-image-wrapper {
+  /*height: 865px;*/
+  height: 765px;
+}
+@media(max-width:768px) {
+  #the_form .form-image-wrapper {
+    height: auto;
+  }
 }
 #the_form h2 {
   margin-bottom: 50px;
-}
-#the_form img {
-  width: 100%;
-  height: auto;
-  box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
 }
 #the_form .fa {
   color: white;
@@ -44,11 +57,30 @@ header .intro-text .intro-heading {
 #the_form .fa {
   color: white;
 }
-ul.with-leading-icons li {
-  position: relative;
-  padding-left: 60px;
+#the_form .form-feature-list li {
+  margin-top: 40px;
 }
-ul.with-leading-icons .icon-left {
+#the_form .form-feature-list .fa {
+  font-size: 65px;
+}
+#the_form .form-feature-list h3 {
+  font-size: 160%;
+  margin-bottom: 5px;
+}
+#the_form .form-feature-list p {
+  font-size: 130%;
+  line-height: 170%;
+}
+#the_form .form-payment-list {
+  font-size: 150%;
+  line-height: 50px;
+  margin-top: 40px;
+}
+#the_form ul.with-leading-icons li {
+  position: relative;
+  padding-left: 80px;
+}
+#the_form ul.with-leading-icons .icon-left {
   position: absolute;
   left: 0px;
   top: 0;
