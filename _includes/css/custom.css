@@ -102,12 +102,12 @@ header .intro-text .intro-heading {
 }
 
 #survey iframe {
-  height: 1300px;
+  height: 1400px;
 }
 
 @media(max-width:768px) {
   #survey iframe {
-    height: 1500px;
+    height: 1700px;
   }
 }
 
